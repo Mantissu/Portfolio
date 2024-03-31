@@ -2,15 +2,62 @@
   --main-dark: #0a192f;
   --main-light: #112240;
   --accent: #6ff4fb;
+  --almost-white: #d3d6da;
+  --not-quite-white: #8ea6ce;
 }
 
 body {
   background-color: var(--main-light);
+  color: var(--not-quite-white);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }
 
 h1 {
-  text-align: center;
-  font-family: "Lato", sans-serif;
+  font-size: clamp(20px, 8vw, 80px);
   font-weight: bold;
+}
+h2 {
+  font-size: clamp(30px, 8vw, 80px);
+  font-weight: bold;
+  color: var(--almost-white);
+}
+
+.content {
+  max-width: 70%;
+  margin: 150px auto;
+}
+
+.greeting {
   color: var(--accent);
+  font-family: monospace;
+}
+
+.hero p {
+  max-width: 750px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.resume-btn {
+  margin-top: 40px;
+}
+
+.main-btn {
+  font-family: monospace;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 5px;
+  box-shadow: 5px 5px var(--accent);
+  transition: all 150ms ease-in-out;
+}
+
+.main-btn:hover {
+  cursor: pointer;
+  color: var(--main-light);
+  background-color: var(--accent);
+  box-shadow: none;
 }
