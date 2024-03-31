@@ -95,3 +95,7 @@ p {
 .project-btn:hover {
   text-decoration: none;
 }
+
+.project-img {
+  border-radius: 5px;
+}
