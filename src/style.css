@@ -27,7 +27,15 @@ h3 {
   font-weight: bold;
   margin-bottom: 40px;
   color: var(--accent);
+  border-bottom: solid 2px var(--accent);
+  line-height: 0.1em;
 }
+
+h3 span {
+  background-color: var(--main-light);
+  padding-right: 20px;
+}
+
 h4 {
   color: var(--almost-white);
   font-weight: bold;
@@ -97,5 +105,23 @@ p {
 }
 
 .project-img {
+  border-radius: 5px;
+}
+
+.about-img {
+  display: block;
+  margin: 0 auto;
+  border: solid 1px var(--accent);
+  border-radius: 5px;
+  max-width: 60%;
+}
+
+.shadow-main {
+  box-shadow: 5px 5px 10px var(--main-dark);
+}
+
+.about {
+  background-color: var(--main-dark);
+  padding: 20px 15px;
   border-radius: 5px;
 }
