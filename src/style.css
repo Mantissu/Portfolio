@@ -48,7 +48,7 @@ p {
 
 .content {
   max-width: 70%;
-  margin: 150px auto;
+  margin: 70px auto;
 }
 
 .greeting {
@@ -124,4 +124,13 @@ p {
   background-color: var(--main-dark);
   padding: 20px 15px;
   border-radius: 5px;
+}
+
+@media (min-width: 700px) {
+  h3 {
+    margin-bottom: 100px;
+  }
+  .content {
+    margin: 260px auto;
+  }
 }
