@@ -43,7 +43,34 @@ h4 {
 }
 
 p {
-  font-size: clamp(1px, 4vw, 18px);
+  font-size: clamp(7px, 4vw, 18px);
+}
+
+nav {
+  background-color: var(--main-dark);
+  padding: 0 30px !important;
+}
+
+.nav-logo {
+  max-width: 70px;
+  cursor: auto;
+}
+
+nav ul a {
+  font-family: monospace;
+  color: var(--accent) !important;
+  font-size: clamp(7px, 5vw, 24px) !important;
+  transition: scale 150ms ease-in;
+}
+
+nav ul a:hover {
+  cursor: pointer;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.fa-bars {
+  color: var(--accent);
 }
 
 .content {
@@ -160,6 +187,6 @@ p {
     margin-bottom: 100px;
   }
   .content {
-    margin: 260px auto;
+    margin: 210px auto;
   }
 }
