@@ -51,11 +51,6 @@ nav {
   padding: 0 30px !important;
 }
 
-.nav-logo {
-  max-width: 70px;
-  cursor: auto;
-}
-
 nav ul a {
   font-family: monospace;
   color: var(--accent) !important;
@@ -67,6 +62,21 @@ nav ul a:hover {
   cursor: pointer;
   scale: 1.2;
   text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-family: monospace;
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.nav-logo {
+  max-width: 70px;
+  cursor: auto;
 }
 
 .fa-bars {
