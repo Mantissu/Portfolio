@@ -59,7 +59,7 @@ nav {
 nav ul a {
   font-family: monospace;
   color: var(--accent) !important;
-  font-size: clamp(7px, 5vw, 24px) !important;
+  font-size: clamp(7px, 5vw, 20px) !important;
   transition: scale 150ms ease-in;
 }
 
@@ -188,5 +188,19 @@ nav ul a:hover {
   }
   .content {
     margin: 210px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    text-align: center;
+  }
+
+  .contact-p {
+    max-width: 100%;
+  }
+
+  .social-links {
+    font-size: 18px;
   }
 }
